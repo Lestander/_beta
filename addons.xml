@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.wizard" version="2.0" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Wizard-BETA[/COLOR][/B]" provider-name="13Clowns">
+<addon id="plugin.program.wizard" version="0.0.1" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Wizard-BETA[/COLOR][/B]" provider-name="13Clowns">
 	<requires>
 	<import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -25,12 +25,12 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.13clowns" version="1.2.5" name="[B][COLORred]13Clowns-BETA[/COLOR][/B]" provider-name="13Clowns">
+<addon id="plugin.video.13clowns" version="0.0.1" name="[B][COLORred]13Clowns-BETA[/COLOR][/B]" provider-name="13Clowns">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.13clowns" version="1.0.9" />
-        <import addon="script.13clowns.artwork" version="1.0.5" />
-        <import addon="script.13clowns.metadata" version="1.0.1" />
+        <import addon="script.module.13clowns"  />
+        <import addon="script.13clowns.artwork" />
+        <import addon="script.13clowns.metadata" />
         <import addon="script.module.resolveurl" version="5.0.17" />
         <import addon="script.module.requests" version="2.19" />
         <import addon="script.module.youtube.dl" optional="true"/>
@@ -59,12 +59,12 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.zanni" version="2.0" name="[B][COLOR orange]Zanni-BETA[/COLOR][/B]" provider-name="13Clowns">
+<addon id="plugin.video.zanni" version="0.0.1" name="[B][COLOR orange]Zanni-BETA[/COLOR][/B]" provider-name="13Clowns">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.zanni" version="1.0.9" />
-        <import addon="script.zanni.artwork" version="1.0.5" />
-        <import addon="script.zanni.metadata" version="1.0.1" />
+        <import addon="script.module.zanni" />
+        <import addon="script.zanni.artwork" />
+        <import addon="script.zanni.metadata" />
         <import addon="script.module.resolveurl" version="5.0.17" />
         <import addon="script.module.requests" version="2.19" />
         <import addon="script.module.youtube.dl" optional="true"/>
@@ -93,7 +93,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.13clownsBETA" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Repo-BETA[/COLOR][/B]" version="1.0.8a" provider-name="13Clowns">
+    <addon id="repository.13clownsBETA" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Repo-BETA[/COLOR][/B]" version="0.0.1" provider-name="13Clowns">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -128,7 +128,7 @@
         </extension>
     </addon>
 
-<addon id="script.13clowns.artwork" version="1.0.6a" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Artwork-BETA[/COLOR][/B]" provider-name="13Clowns">
+<addon id="script.13clowns.artwork" version="0.0.1" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Artwork-BETA[/COLOR][/B]" provider-name="13Clowns">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -150,7 +150,7 @@
 	</extension>
 </addon>
 
-<addon id="script.13clowns.metadata" version="1.0.3" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Metadata-BETA[/COLOR][/B]" provider-name="13Clowns">
+<addon id="script.13clowns.metadata" version="0.0.1" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Metadata-BETA[/COLOR][/B]" provider-name="13Clowns">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -172,7 +172,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.13clowns" version="1.0.11" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Script.Module-BETA[/COLOR][/B]" provider-name="13Clowns">
+<addon id="script.module.13clowns" version="0.0.1" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Script.Module-BETA[/COLOR][/B]" provider-name="13Clowns">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
@@ -219,7 +219,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.zanni" version="2.0" name="[B][COLOR orange]Zanni[/COLOR] [COLOR white]Script.Module-BETA[/COLOR][/B]" provider-name="13Clowns">
+<addon id="script.module.zanni" version="0.0.1" name="[B][COLOR orange]Zanni[/COLOR] [COLOR white]Script.Module-BETA[/COLOR][/B]" provider-name="13Clowns">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
@@ -259,7 +259,7 @@
   </extension>
 </addon>
 
-<addon id="script.zanni.artwork" version="2.0" name="[B][COLOR orange]Zanni[/COLOR] [COLOR white]Artwork[/COLOR][/B]-BETA" provider-name="13Clowns">
+<addon id="script.zanni.artwork" version="0.0.1" name="[B][COLOR orange]Zanni[/COLOR] [COLOR white]Artwork[/COLOR][/B]-BETA" provider-name="13Clowns">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -281,7 +281,7 @@
 	</extension>
 </addon>
 
-<addon id="script.zanni.metadata" version="2.0" name="[B][COLOR orange]Zanni[/COLOR] [COLOR white]Metadata[/COLOR][/B]-BETA" provider-name="13Clowns">
+<addon id="script.zanni.metadata" version="0.0.1" name="[B][COLOR orange]Zanni[/COLOR] [COLOR white]Metadata[/COLOR][/B]-BETA" provider-name="13Clowns">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
