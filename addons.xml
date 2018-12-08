@@ -93,7 +93,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.13clowns" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Repo-BETA[/COLOR][/B]" version="1.0.8a" provider-name="13Clowns">
+    <addon id="repository.13clownsBETA" name="[B][COLORred]13Clowns[/COLOR] [COLOR white]Repo-BETA[/COLOR][/B]" version="1.0.8a" provider-name="13Clowns">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
